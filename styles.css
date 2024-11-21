@@ -8,16 +8,16 @@ body {
     list-style: none;
     height: 60px;
     margin-bottom: -16px;
+    margin-top: -8px;
+    padding-top: 5px;
+    padding-left: 55px;
 }
 
 .topNav li{
     display: inline;
-    padding: 5px 15px 11px 15px;
+    padding: 15px 24% 11px 15px;
 }
 
-#topNavHover:hover {
-    border: 2px solid white;
-}
 
 .topNav li a{
     text-decoration: none;
@@ -25,6 +25,12 @@ body {
     color: white;
     font-size: 22px;
 }
+
+#cart a{
+    float: right;
+    padding-right: 14px;
+}
+
 
 
 .bottomNav {
@@ -48,3 +54,29 @@ body {
     font-size: 22px;
     padding-top: 5px;
 }
+
+
+
+
+
+/* Home */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: 250px;
+    height: 350;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    margin: 0 auto
+  }
+
+  .card .middle img {
+    max-height:167px
+  }
