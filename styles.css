@@ -29,6 +29,11 @@ body {
 #cart a{
     float: right;
     padding-right: 14px;
+    border: 1px solid darkgray;
+    background-color: grey;
+    border-radius: 11px;
+    text-align: center;
+    padding-left: 10px;
 }
 
 
@@ -74,7 +79,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
-    margin: 0 auto
+    margin: 0 auto;
+    margin-top: 15px;
   }
 
   .card .middle img {
@@ -86,3 +92,87 @@ body {
     font-size: 20px;
     font-weight: bold;
   }
+
+  
+/* Shopping Cart */
+
+#checkout{
+    background: #F7CA00;
+    border-radius: 44%;
+    padding: 8px;
+    height: 35px;
+    font-weight: bold;
+    float: right;
+}
+
+.main {
+    height: 125vh;
+    width: 100%;
+    padding-left: 35px;
+    display: flex;
+  }
+  
+  .cartCard {
+    margin: 100px auto 0;
+    display: inline-block;
+    width: 92%;
+    height: 250px;
+    perspective: 700px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }
+
+
+
+  .horizontalCard img {
+    max-height:167px;
+    float: left;
+  }
+
+#middlebox {
+    float: left;
+    width: 50%;
+    height: 280px;
+}
+
+#rightbox {
+    float: right;
+    width: 25%;
+    height: 280px;
+}
+
+#subTotal {
+    background-color: white;
+    border-radius: 2%;
+    padding-bottom: 63px;
+}
+
+#subtotalAmount {
+    float: right;
+    padding-right: 24px;
+}
+
+
+  /* Checkout */
+
+  #checkoutTitle {
+    text-align: center;
+  }
+
+
+  .container {
+    height: 200px;
+    position: relative;
+  }
+  
+  #placeOrder {
+        background: #F7CA00;
+        border-radius: 44%;
+        padding: 8px;
+        height: 35px;
+        font-weight: bold;
+        float: right;
+  }
+
